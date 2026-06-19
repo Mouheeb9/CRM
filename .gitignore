@@ -1,0 +1,14 @@
+# Exclure le dossier de configuration locale de Visual Studio
+.vs/
+
+# Exclure les fichiers de build
+[Bb]in/
+[Oo]bj/
+
+# Exclure les fichiers utilisateurs
+*.user
+*.userosscache
+*.suo
+
+# Fichiers temporaires de crash ou logs
+*.log

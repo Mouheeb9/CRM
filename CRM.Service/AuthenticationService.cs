@@ -22,6 +22,19 @@ namespace CRM.Service
             throw new NotImplementedException();
         }
 
+
+        public Task<bool> RefreshTokenAsync(ApplicationUserRegisterInputModel model)
+        {
+            throw new NotImplementedException();
+        }
+
+
+        public Task<bool> ResetPasswordAsync(ApplicationUserRegisterInputModel model)
+        {
+            throw new NotImplementedException();
+        }
+
+
         public async Task<ResponseModel<bool>> LoginAsync(ApplicationUserLoginInputModel model)
         {
             var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, false, false);
@@ -49,11 +62,6 @@ namespace CRM.Service
             };
         }
 
-        public Task<bool> RefreshTokenAsync(ApplicationUserRegisterInputModel model)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task<bool> RegisterAsync(ApplicationUserRegisterInputModel model)
         {
             ArgumentNullException.ThrowIfNull(model.Email);
@@ -75,9 +83,5 @@ namespace CRM.Service
             return result.Succeeded ? true : throw new Exception("Unable to create user, Errors: " + result.Errors);
         }
 
-        public Task<bool> ResetPasswordAsync(ApplicationUserRegisterInputModel model)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

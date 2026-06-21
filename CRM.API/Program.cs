@@ -60,6 +60,7 @@ namespace CRM.API
             );
 
             app.Run();
+
         }
     }
 }

@@ -18,9 +18,22 @@
 </head>
 
 <body>
-    <Routes @rendermode="InteractiveServer"/>
-    <script src="@Assets["_content/MudBlazor/MudBlazor.min.js"]"></script>
-    <script src="@Assets["_framework/blazor.web.js"]"></script>
+    <Routes @rendermode="InteractiveServer" />
+    <script src="_framework/blazor.web.js"></script>
+    <script src="_content/MudBlazor/MudBlazor.min.js"></script>
+    <script>
+        window.localStorageHelper = {
+        getItem: function (key) {
+        return localStorage.getItem(key);
+        },
+        setItem: function (key, value) {
+        localStorage.setItem(key, value);
+        },
+        removeItem: function (key) {
+        localStorage.removeItem(key);
+        }
+        };
+    </script>
 </body>
 
 </html>

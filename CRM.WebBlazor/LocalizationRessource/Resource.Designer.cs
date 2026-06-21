@@ -59,5 +59,302 @@ namespace CRM.WebBlazor.LocalizationRessource {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Login.
+        /// </summary>
+        public static string button_login {
+            get {
+                return ResourceManager.GetString("button-login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Register.
+        /// </summary>
+        public static string button_register {
+            get {
+                return ResourceManager.GetString("button-register", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Reset.
+        /// </summary>
+        public static string button_reset {
+            get {
+                return ResourceManager.GetString("button-reset", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Female.
+        /// </summary>
+        public static string gender_Female {
+            get {
+                return ResourceManager.GetString("gender-Female", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Male.
+        /// </summary>
+        public static string gender_Male {
+            get {
+                return ResourceManager.GetString("gender-Male", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Other.
+        /// </summary>
+        public static string gender_Other {
+            get {
+                return ResourceManager.GetString("gender-Other", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Confirm Password.
+        /// </summary>
+        public static string input_confirm_password {
+            get {
+                return ResourceManager.GetString("input-confirm-password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Date of Birth.
+        /// </summary>
+        public static string input_dateofbirth {
+            get {
+                return ResourceManager.GetString("input-dateofbirth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Email.
+        /// </summary>
+        public static string input_email {
+            get {
+                return ResourceManager.GetString("input-email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à First Name.
+        /// </summary>
+        public static string input_firstname {
+            get {
+                return ResourceManager.GetString("input-firstname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Gender.
+        /// </summary>
+        public static string input_gender {
+            get {
+                return ResourceManager.GetString("input-gender", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Last Name.
+        /// </summary>
+        public static string input_lastname {
+            get {
+                return ResourceManager.GetString("input-lastname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Password.
+        /// </summary>
+        public static string input_password {
+            get {
+                return ResourceManager.GetString("input-password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Errors.
+        /// </summary>
+        public static string label_errors {
+            get {
+                return ResourceManager.GetString("label-errors", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Passwords do not match.
+        /// </summary>
+        public static string message_confirm_password_match {
+            get {
+                return ResourceManager.GetString("message-confirm-password-match", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Confirm password is required!.
+        /// </summary>
+        public static string message_confirm_password_required {
+            get {
+                return ResourceManager.GetString("message-confirm-password-required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Email already exists..
+        /// </summary>
+        public static string message_email_exists {
+            get {
+                return ResourceManager.GetString("message-email-exists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Email format is not correct..
+        /// </summary>
+        public static string message_email_format {
+            get {
+                return ResourceManager.GetString("message-email-format", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Email is required!.
+        /// </summary>
+        public static string message_email_required {
+            get {
+                return ResourceManager.GetString("message-email-required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à First name is required!.
+        /// </summary>
+        public static string message_firstname_required {
+            get {
+                return ResourceManager.GetString("message-firstname-required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Invalid login attempt..
+        /// </summary>
+        public static string message_invalid_login {
+            get {
+                return ResourceManager.GetString("message-invalid-login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Invalid user data..
+        /// </summary>
+        public static string message_invalid_user_data {
+            get {
+                return ResourceManager.GetString("message-invalid-user-data", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Last name is required!.
+        /// </summary>
+        public static string message_lastname_required {
+            get {
+                return ResourceManager.GetString("message-lastname-required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Login is not allowed..
+        /// </summary>
+        public static string message_login_not_allowed {
+            get {
+                return ResourceManager.GetString("message-login-not-allowed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Password is required!.
+        /// </summary>
+        public static string message_password_required {
+            get {
+                return ResourceManager.GetString("message-password-required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Password must contain at least 8 characters, one uppercase letter, one number and one symbol..
+        /// </summary>
+        public static string message_password_validation {
+            get {
+                return ResourceManager.GetString("message-password-validation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Password is too weak..
+        /// </summary>
+        public static string message_password_weak {
+            get {
+                return ResourceManager.GetString("message-password-weak", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Two-factor authentication is required!.
+        /// </summary>
+        public static string message_two_factor_required {
+            get {
+                return ResourceManager.GetString("message-two-factor-required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à An unknown error occurred during the request..
+        /// </summary>
+        public static string message_unknown_error {
+            get {
+                return ResourceManager.GetString("message-unknown-error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à User is locked out..
+        /// </summary>
+        public static string message_user_locked_out {
+            get {
+                return ResourceManager.GetString("message-user-locked-out", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Login.
+        /// </summary>
+        public static string title_login {
+            get {
+                return ResourceManager.GetString("title-login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Register.
+        /// </summary>
+        public static string title_register {
+            get {
+                return ResourceManager.GetString("title-register", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Hello, welcome to our CRM.
+        /// </summary>
+        public static string WelcomeMessage {
+            get {
+                return ResourceManager.GetString("WelcomeMessage", resourceCulture);
+            }
+        }
     }
 }
